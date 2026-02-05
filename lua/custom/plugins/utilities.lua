@@ -40,7 +40,7 @@ return {
 	},
 	{
 		"esmuellert/nvim-eslint",
-		ft = { "javascript", "typescript", "javscriptreact", "typescriptreact" },
+		ft = { "javascript", "typescript", "javscriptreact", "typescriptreact", "svelte" },
 		config = function()
 			require("nvim-eslint").setup({})
 		end,
