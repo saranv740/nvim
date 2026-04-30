@@ -129,7 +129,7 @@ return {
 
 		-- Enable the following language servers
 		local servers = {
-			-- clangd = {},
+			clangd = {},
 			ast_grep = {},
 			gopls = {},
 			vtsls = {},
