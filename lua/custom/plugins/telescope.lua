@@ -1,6 +1,5 @@
 return {
 	"nvim-telescope/telescope.nvim",
-	tag = "v0.2.1",
 	event = "VimEnter",
 	dependencies = {
 		"nvim-lua/plenary.nvim",
@@ -43,10 +42,6 @@ return {
 		pcall(require("telescope").load_extension, "live_grep_args")
 
 		local builtin = require("telescope.builtin")
-		local map = function(keys, func, desc, mode)
-			mode = mode or "n"
-			vim.keymap.set(mode, keys, func, { buffer = event.buf, desc = "LSP: " .. desc })
-		end
 
 		if vim.fn.executable("git") == 1 then
 			vim.keymap.set("n", "<leader>gb", function()
