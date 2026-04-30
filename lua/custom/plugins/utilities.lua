@@ -1,6 +1,7 @@
 return {
 	{
-		"tpope/vim-sleuth",
+		"NMAC427/guess-indent.nvim",
+		opts = {},
 	},
 	{
 		"max397574/better-escape.nvim",
