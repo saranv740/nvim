@@ -24,6 +24,7 @@ return {
 			typescriptreact = { "prettierd", "prettier", stop_after_first = true },
 			javascript = { "prettierd", "prettier", stop_after_first = true },
 			javascriptreact = { "prettierd", "prettier", stop_after_first = true },
+			proto = { "buf" },
 		},
 	},
 }

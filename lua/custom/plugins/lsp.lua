@@ -157,6 +157,7 @@ return {
 			svelte = {},
 			emmet_ls = {},
 			remark_ls = {},
+			protols = {},
 			lua_ls = {
 				settings = {
 					Lua = {
