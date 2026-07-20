@@ -142,7 +142,6 @@ return {
 			svelte = {},
 			emmet_ls = {},
 			remark_ls = {},
-			protols = {},
 			-- Used to format Lua code
 			stylua = {},
 			lua_ls = {
